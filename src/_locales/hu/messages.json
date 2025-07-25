@@ -1,0 +1,531 @@
+{
+  "appName": {
+    "message": "Transmission easy client"
+  },
+  "appDesc": {
+    "message": "Ez a bővítmény hozzáadja a Transmission webes felületét a böngésződbe"
+  },
+  "lang": {
+    "message": "hu"
+  },
+  "sizeList": {
+    "message": "[\"B\", \"kB\", \"MB\", \"GB\", \"TB\", \"PB\", \"EB\"]"
+  },
+  "sizePsList": {
+    "message": "[\"B/s\", \"kB/s\", \"MB/s\", \"GB/s\", \"TB/s\", \"PB/s\", \"EB/s\"]"
+  },
+  "timeOutList": {
+    "message": "[\"w\", \"d\", \"h\", \"m\", \"s\"]"
+  },
+  "OV_COL_NAME": {
+    "message": "Név"
+  },
+  "OV_COL_ORDER": {
+    "message": "Sorrend",
+    "modifed": 1,
+    "originalKey": "OV_FL_QUEUED"
+  },
+  "OV_COL_ORDER_SHORT": {
+    "message": "#",
+    "originalKey": "OV_COL_ORDER"
+  },
+  "OV_COL_SIZE": {
+    "message": "Méret"
+  },
+  "OV_COL_REMAINING": {
+    "message": "Hátralévő"
+  },
+  "OV_COL_DONE": {
+    "message": "%"
+  },
+  "OV_COL_STATUS": {
+    "message": "Állapot"
+  },
+  "OV_COL_SEEDS": {
+    "message": "Források"
+  },
+  "OV_COL_PEERS": {
+    "message": "Partnerek"
+  },
+  "OV_COL_SEEDS_PEERS": {
+    "message": "Források/Partnerek"
+  },
+  "OV_COL_SEEDS_PEERS_SHORT": {
+    "message": "F/P",
+    "originalKey": "OV_COL_SEEDS_PEERS"
+  },
+  "OV_COL_DOWNSPD": {
+    "message": "Letöltési sebesség"
+  },
+  "OV_COL_UPSPD": {
+    "message": "Feltöltési sebesség"
+  },
+  "OV_COL_ETA": {
+    "message": "Hátralévő idő"
+  },
+  "OV_COL_UPPED": {
+    "message": "Feltöltve"
+  },
+  "OV_COL_DOWNLOADED": {
+    "message": "Letöltve"
+  },
+  "OV_COL_SHARED": {
+    "message": "Arány"
+  },
+  "OV_COL_AVAIL": {
+    "message": "Elérhetőség"
+  },
+  "OV_COL_AVAIL_SHORT": {
+    "message": "Elérh.",
+    "originalKey": "OV_COL_AVAIL"
+  },
+  "OV_COL_LABEL": {
+    "message": "Címke"
+  },
+  "OV_COL_DATE_ADDED": {
+    "message": "Hozzáadva"
+  },
+  "OV_COL_DATE_COMPLETED": {
+    "message": "Befejezve"
+  },
+  "Actions": {
+    "message": "Műveletek"
+  },
+  "FI_COL_NAME": {
+    "message": "Név"
+  },
+  "FI_COL_SIZE": {
+    "message": "Méret"
+  },
+  "FI_COL_PRIO": {
+    "message": "Prioritás"
+  },
+  "OV_FL_SEEDING": {
+    "message": "Feltöltés"
+  },
+  "OV_CAT_ACTIVE": {
+    "message": "Aktív"
+  },
+  "OV_CAT_ALL": {
+    "message": "Összes"
+  },
+  "OV_CAT_COMPL": {
+    "message": "Befejezve"
+  },
+  "OV_CAT_DL": {
+    "message": "Letöltés alatt"
+  },
+  "OV_CAT_INACTIVE": {
+    "message": "Inaktív"
+  },
+  "OV_CAT_NOLABEL": {
+    "message": "Nincs címke"
+  },
+  "OV_FL_CHECKED": {
+    "message": "Ellenőrzött",
+    "modifed": 1
+  },
+  "OV_FL_DOWNLOADING": {
+    "message": "Letöltés alatt"
+  },
+  "OV_FL_ERROR": {
+    "message": "Hiba",
+    "modifed": 1
+  },
+  "OV_FL_FINISHED": {
+    "message": "Kész"
+  },
+  "OV_FL_PAUSED": {
+    "message": "Szüneteltetve"
+  },
+  "OV_FL_QUEUED": {
+    "message": "Sorba állítva"
+  },
+  "OV_FL_QUEUED_SEED": {
+    "message": "Sorolt feltöltés"
+  },
+  "OV_FL_STOPPED": {
+    "message": "Leállítva"
+  },
+  "MF_DONT": {
+    "message": "Ne töltsd le"
+  },
+  "MF_HIGH": {
+    "message": "Magas",
+    "modifed": 1
+  },
+  "MF_LOW": {
+    "message": "Alacsony",
+    "modifed": 1
+  },
+  "MF_NORMAL": {
+    "message": "Normál",
+    "modifed": 1
+  },
+  "ML_START": {
+    "message": "Indítás"
+  },
+  "ML_PAUSE": {
+    "message": "Szünet"
+  },
+  "ML_STOP": {
+    "message": "Leállítás"
+  },
+  "OV_REMOVE_LABEL": {
+    "message": "Címke eltávolítása"
+  },
+  "OV_NEW_LABEL": {
+    "message": "Új címke..."
+  },
+  "ML_FORCE_START": {
+    "message": "Kényszerített indítás"
+  },
+  "ML_FORCE_RECHECK": {
+    "message": "Kényszerített ellenőrzés"
+  },
+  "ML_REMOVE": {
+    "message": "Eltávolítás"
+  },
+  "ML_REMOVE_AND": {
+    "message": "Eltávolítás és"
+  },
+  "ML_DELETE_TORRENT": {
+    "message": ".torrent törlése"
+  },
+  "ML_DELETE_DATA": {
+    "message": "Adatok törlése"
+  },
+  "ML_DELETE_DATATORRENT": {
+    "message": ".torrent és adatok törlése"
+  },
+  "DLG_RSSDOWNLOADER_24": {
+    "message": "Letöltés"
+  },
+  "MENU_UNLIMITED": {
+    "message": "Korlátlan"
+  },
+  "Open_file": {
+    "message": "Fájl letöltése",
+    "originalKey": "Open file"
+  },
+  "ST_CAPT_WEBUI": {
+    "message": "Webes felület"
+  },
+  "MM_FILE_ADD_URL": {
+    "message": "Torrent hozzáadása URL-ből..."
+  },
+  "STM_TORRENTS_RESUMEALL": {
+    "message": "Összes torrent folytatása"
+  },
+  "STM_TORRENTS_PAUSEALL": {
+    "message": "Összes torrent szüneteltetése"
+  },
+  "DLG_BTN_CLOSE": {
+    "message": "Bezárás"
+  },
+  "OV_CONFIRM_DELETE_ONE": {
+    "message": "Biztosan eltávolítod a kiválasztott torrentet?"
+  },
+  "OV_CONFIRM_DELETE_MULTIPLE": {
+    "message": "Biztosan eltávolítod a kiválasztott %d torrentet?"
+  },
+  "DLG_BTN_YES": {
+    "message": "Igen"
+  },
+  "DLG_BTN_NO": {
+    "message": "Nem"
+  },
+  "DLG_BTN_CANCEL": {
+    "message": "Mégse"
+  },
+  "DLG_BTN_APPLY": {
+    "message": "Alkalmaz"
+  },
+  "DLG_BTN_OK": {
+    "message": "Rendben"
+  },
+  "ST_CAPT_FOLDER": {
+    "message": "Könyvtárak",
+    "modifed": 1
+  },
+  "Paste_a_torrent_URL": {
+    "message": "Torrent URL beillesztése",
+    "originalKey": "Paste a torrent or feed URL",
+    "modifed": 1
+  },
+  "OV_NEWLABEL_CAPTION": {
+    "message": "Adj meg egy címkét",
+    "modifed": 1
+  },
+  "DLG_SETTINGS_4_CONN_16": {
+    "message": "Felhasználónév"
+  },
+  "DLG_SETTINGS_4_CONN_18": {
+    "message": "Jelszó"
+  },
+  "PRS_COL_IP": {
+    "message": "IP-cím"
+  },
+  "PRS_COL_PORT": {
+    "message": "Port"
+  },
+  "ST_CAPT_ADVANCED": {
+    "message": "Haladó beállítások"
+  },
+  "resume": {
+    "message": "Folytatás",
+    "originalKey": "STM_TORRENTS_RESUMEALL",
+    "modifed": 1
+  },
+  "enterNewLabel": {
+    "message": "Add meg az új címkét a kiválasztott torrenthez",
+    "originalKey": "OV_NEWLABEL_TEXT",
+    "modifed": 1
+  },
+  "defaultPath": {
+    "message": "Alapértelmezett könyvtár",
+    "originalKey": "DLG_SETTINGS_3_PATHS_10",
+    "modifed": 1
+  },
+  "add": {
+    "message": "Hozzáadás"
+  },
+  "available": {
+    "message": "Elérhető",
+    "originalKey": "STATUS_REMOTE_01"
+  },
+  "up": {
+    "message": "Mozgatás felfelé",
+    "originalKey": "ML_QUEUEUP",
+    "modifed": 1
+  },
+  "down": {
+    "message": "Mozgatás lefelé",
+    "originalKey": "ML_QUEUEDOWN",
+    "modifed": 1
+  },
+  "update": {
+    "message": "Frissítés",
+    "originalKey": "DLG_RSSDOWNLOADER_22",
+    "modifed": 1
+  },
+  "deleteSelected": {
+    "message": "Kijelöltek törlése",
+    "originalKey": "DLG_RSSDOWNLOADER_35",
+    "modifed": 1
+  },
+  "torrentAdded": {
+    "message": "Torrent hozzáadva!"
+  },
+  "unexpectedError": {
+    "message": "Váratlan hiba!"
+  },
+  "fileSizeError": {
+    "message": "A fájl túl nagy"
+  },
+  "addInTorrentClient": {
+    "message": "Hozzáadás a Transmission-hoz"
+  },
+  "enterNewDirPath": {
+    "message": "Add meg az új könyvtár elérési útját"
+  },
+  "torrentFileExists": {
+    "message": "Valószínűleg a torrent fájl már létezik!"
+  },
+  "currentDirectory": {
+    "message": "Aktuális könyvtár"
+  },
+  "openInTab": {
+    "message": "Megnyitás új fülön"
+  },
+  "optClient": {
+    "message": "Transmission"
+  },
+  "optMain": {
+    "message": "Fő"
+  },
+  "optNotify": {
+    "message": "Értesítés"
+  },
+  "optCtx": {
+    "message": "Helyi menü"
+  },
+  "backup": {
+    "message": "Biztonsági mentés"
+  },
+  "restore": {
+    "message": "Visszaállítás"
+  },
+  "useSSL": {
+    "message": "SSL használata"
+  },
+  "path": {
+    "message": "Elérési út",
+    "note": "URL path"
+  },
+  "hideSeedStatusItem": {
+    "message": "Rejtse el a \"Seedelés alatt\" álló torrenteket"
+  },
+  "hideFnishStatusItem": {
+    "message": "Rejtse el a \"Befejezett\" állapotú torrenteket"
+  },
+  "showSpeedGraph": {
+    "message": "Sebességgrafikon megjelenítése"
+  },
+  "popupHeight": {
+    "message": "Felugró ablak magassága"
+  },
+  "px": {
+    "message": "képpont"
+  },
+  "ms": {
+    "message": "ms"
+  },
+  "popupUpdateInterval": {
+    "message": "Torrentlista frissítési időköze"
+  },
+  "fixCirilicIf": {
+    "message": "Ciril betűk javítása ha..."
+  },
+  "fixCirilicTitle": {
+    "message": "Hibásan jeleníti meg a torrentek nevét"
+  },
+  "fixCirilicTorrentPath": {
+    "message": "Hibás könyvtárat állít be az új torrenthez"
+  },
+  "showNotificationOnDownloadCompleate": {
+    "message": "Értesítés letöltés befejezésekor"
+  },
+  "displayActiveTorrentCountIcon": {
+    "message": "Mutatja a letöltés alatt álló torrentek számát a bővítmény ikonján"
+  },
+  "backgroundUpdateInterval": {
+    "message": "Háttér-frissítési időköz"
+  },
+  "notificationTimeout": {
+    "message": "Értesítés elrejtése ennyi idő után"
+  },
+  "folderContextMenu": {
+    "message": "Könyvtárlista megjelenítése"
+  },
+  "labelContextMenu": {
+    "message": "Címkék megjelenítése"
+  },
+  "selectDownloadCategoryOnAddItemFromContextMenu": {
+    "message": "Nyissa meg a \"Letöltés\" kategóriát torrent hozzáadásakor"
+  },
+  "treeViewContextMenu": {
+    "message": "Fa nézet menü"
+  },
+  "showDefaultFolderContextMenuItem": {
+    "message": "Alapértelmezett könyvtár megjelenítése"
+  },
+  "dirList": {
+    "message": "Könyvtárak listája"
+  },
+  "subPath": {
+    "message": "Alútvonal"
+  },
+  "labelList": {
+    "message": "Címkék listája"
+  },
+  "optSaveInCloud": {
+    "message": "Mentés a felhőbe"
+  },
+  "toRestore": {
+    "message": "Visszaállítás"
+  },
+  "optGetFromCloud": {
+    "message": "Beállítások letöltése a felhőből"
+  },
+  "optClearCloudStorage": {
+    "message": "Minden beállítás törlése a felhőből"
+  },
+  "showFileList": {
+    "message": "Fájlok listája"
+  },
+  "selectAll": {
+    "message": "Összes kijelölése"
+  },
+  "refresh": {
+    "message": "Frissítés"
+  },
+  "checkSettings": {
+    "message": "Beállítások ellenőrzése"
+  },
+  "showFreeSpace": {
+    "message": "Szabad lemezterület megjelenítése"
+  },
+  "freeSpace": {
+    "message": "Szabad terület"
+  },
+  "startNow": {
+    "message": "Indítás most"
+  },
+  "rename": {
+    "message": "Átnevezés"
+  },
+  "renameText": {
+    "message": "Add meg a fájl nevét"
+  },
+  "move": {
+    "message": "Áthelyezés"
+  },
+  "moveNewPath": {
+    "message": "Add meg az új elérési utat"
+  },
+  "fullPath": {
+    "message": "Könyvtár (teljes elérési út)"
+  },
+  "guiPath": {
+    "message": "WebUI útvonala"
+  },
+  "altSpeedEnable": {
+    "message": "Ideiglenes sebességkorlátok"
+  },
+  "torrentFileIsExists": {
+    "message": "A torrent korábban már hozzá lett adva"
+  },
+  "reannounce": {
+    "message": "További partnerek keresése"
+  },
+  "extra": {
+    "message": "Extra"
+  },
+  "queueTop": {
+    "message": "Teteje"
+  },
+  "queueBottom": {
+    "message": "Alja"
+  },
+  "requireAuthentication": {
+    "message": "Hitelesítés szükséges"
+  },
+  "badgeColor": {
+    "message": "Értesítés színe"
+  },
+  "magnetUri": {
+    "message": "Magnet-URI"
+  },
+  "copy": {
+    "message": "Másolás"
+  },
+  "addItem": {
+    "message": "Elem hozzáadása"
+  },
+  "shortName": {
+    "message": "Rövid név"
+  },
+  "originallyCreatedBy": {
+    "message": "Eredeti készítő"
+  },
+  "updatedAndMaintainedBy": {
+    "message": "Frissítette és karbantartja"
+  },
+  "originalAuthorName": {
+    "message": "Anton"
+  },
+  "authorName": {
+    "message": "Zelo"
+  }
+}
