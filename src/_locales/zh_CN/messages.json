@@ -302,9 +302,6 @@
         "originalKey": "DLG_RSSDOWNLOADER_35",
         "modifed": 1
     },
-
-
-
     "torrentAdded": {
         "message": "洪流加入!"
     },
@@ -506,5 +503,17 @@
     },
     "shortName": {
         "message": "简称"
+    },
+    "originallyCreatedBy": {
+        "message": "最初由以下人员创建"
+    },
+    "updatedAndMaintainedBy": {
+        "message": "由以下人员更新和维护"
+    },
+    "originalAuthorName": {
+        "message": "Anton"
+    },
+    "authorName": {
+        "message": "Zelo"
     }
 }

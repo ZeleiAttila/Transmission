@@ -310,9 +310,6 @@
         "originalKey": "DLG_RSSDOWNLOADER_35",
         "modifed": 1
     },
-
-
-
     "torrentAdded": {
         "message": "Le torrent a été ajouté !"
     },
@@ -514,5 +511,17 @@
     },
     "shortName": {
         "message": "Nom court"
+    },
+    "originallyCreatedBy": {
+        "message": "Créé à l'origine par"
+    },
+    "updatedAndMaintainedBy": {
+        "message": "mis à jour et maintenu par"
+    },
+    "originalAuthorName": {
+        "message": "Anton"
+    },
+    "authorName": {
+        "message": "Zelo"
     }
 }
