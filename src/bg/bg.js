@@ -10,9 +10,9 @@ const { serializeError } = require("serialize-error");
 const logger = getLogger("background");
 
 const notificationIcons = {
-  complete: chrome.runtime.getURL("assets/img/notification_done.png"),
-  add: chrome.runtime.getURL("assets/img/notification_add.png"),
-  error: chrome.runtime.getURL("assets/img/notification_error.png")
+  complete: chrome.runtime.getURL("assets/icons/notification_done.png"),
+  add: chrome.runtime.getURL("assets/icons/notification_add.png"),
+  error: chrome.runtime.getURL("assets/icons/notification_error.png")
 };
 
 class Bg {

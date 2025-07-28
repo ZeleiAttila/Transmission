@@ -24,7 +24,7 @@ async function downloadFileFromTab(url, tabId, frameId) {
       throw Object.assign(new Error(), response.error);
     }
     return response.result;
-  }).then(({response, base64}) => {
+  }).then(({ response, base64 }) => {
     const arrayBuffer = base64ToArrayBuffer(base64);
 
     const headers = new Headers(response.headers);
@@ -32,15 +32,20 @@ async function downloadFileFromTab(url, tabId, frameId) {
     return new Blob([arrayBuffer], {
       type: headers.get('Content-type')
     });
-  }).then(blob => ({blob}));
+  }).then(blob => ({ blob }));
 }
 
 const executeScriptPromise = (tabId, options) => {
   return new Promise((resolve, reject) => {
-    chrome.tabs.executeScript(tabId, options, (results) => {
-      const err = chrome.runtime.lastError;
-      err ? reject(err) : resolve(results);
-    });
+    chrome.scripting
+      .executeScript({
+        target: { tabId, frameIds: [options.frameId] },
+        files : [options.file]
+      }, (results) => {
+        const err = chrome.runtime.lastError;
+        err ? reject(err) : resolve(results);
+      }
+      );
   });
 };
 
