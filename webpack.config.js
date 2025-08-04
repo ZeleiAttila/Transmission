@@ -97,6 +97,10 @@ const config = {
     }),
     new CopyWebpackPlugin([
       { from: './src/assets/icons', to: './assets/icons' },
+      {
+        from: path.resolve(__dirname, 'src/assets/img/notification*.png'),
+        to: 'assets/icons/[name].[ext]',
+      },
       { from: './src/_locales', to: './_locales' },
       {
         from: './src/manifest.json',
